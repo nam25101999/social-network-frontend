@@ -1,0 +1,26 @@
+.matrix-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    background: black;
+    overflow: hidden;
+  }
+  
+  .matrix-row {
+    display: flex;
+    flex: 1;
+  }
+  
+  .matrix-cell {
+    flex: 1;
+    margin: 1px;
+    background-color: #111;
+    transition: background-color 0.1s;
+  }
+  
+  .matrix-cell.active {
+    background-color: #00ff88;
+    box-shadow: 0 0 6px #00ff88;
+  }
+  

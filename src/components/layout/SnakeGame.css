@@ -1,0 +1,40 @@
+/* SnakeGame.css */
+.snake-game {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .score {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .game-over {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .game-board {
+    display: inline-block;
+    border: 2px solid black;
+  }
+  
+  .game-row {
+    display: flex;
+  }
+  
+  .game-cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .snake {
+    background-color: green;
+  }
+  
+  .food {
+    background-color: red;
+  }
+  
